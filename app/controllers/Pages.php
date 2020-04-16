@@ -8,15 +8,17 @@ class Pages extends Controller
 
     public function index()
     {
-        $data = ['title' => 'Welcome'];
+        $data = [
+            'title' => 'WatsonMVC',
+        ];
         // pass view
         $this->view('pages/index', $data);
     }
 
     public function about()
     {
-
         $data = ['title' => 'About Us'];
+        // pass view
         $this->view('pages/about', $data);
     }
 }

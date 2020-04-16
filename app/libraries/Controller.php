@@ -1,29 +1,28 @@
 <?php
 /*
-* Base COntroller
-* Loads Models and Views
-*/
-
+   * Base Controller
+   * Loads the models and views
+   */
 class Controller
 {
-    // Load Model
+    // Load model
     public function model($model)
     {
-        // require model file
+        // Require model file
         require_once '../app/models/' . $model . '.php';
 
-        // Instantiate model
+        // Instatiate model
         return new $model();
     }
 
-    // Load View
+    // Load view
     public function view($view, $data = [])
     {
-        // require view file
+        // Check for view file
         if (file_exists('../app/views/' . $view . '.php')) {
             require_once '../app/views/' . $view . '.php';
         } else {
-            // view does not exist
+            // View does not exist
             die('View does not exist');
         }
     }
