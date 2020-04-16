@@ -2,7 +2,7 @@
 This is a PHP MVC framework
 
 
-# Environment set up
+## Environment set up
 
 
 1. Download xampp [Here](https://www.apachefriends.org/index.html).
@@ -31,7 +31,7 @@ This is a PHP MVC framework
 
 
 
-# MySQL
+## MySQL
 
 1. Adding password to root user to the data base.
 
@@ -57,7 +57,7 @@ This is a PHP MVC framework
 
 
 
-# Environment Variables
+## Environment Variables
 
 1. Do this if PHP is not already set in your Path.
 
@@ -68,6 +68,6 @@ This is a PHP MVC framework
 1. Add variable C:\xampp\php you can do this by either typing or browsing to that folder.
 
 
-# IDE
+## IDE
 
 If using VSCode I recommend downloading the extension PHP Intellisense. by Felix Becker. 
