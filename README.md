@@ -5,29 +5,29 @@ This is a PHP MVC framework
 # Environment set up
 
 
-Download xampp. https://www.apachefriends.org/index.html
+⋅⋅* Download xampp [Here](https://www.apachefriends.org/index.html)
 
-Install, make sure you include mysql and apache. (this is default)
+⋅⋅* Install, make sure you include mysql and apache. (this is default)
 
-Run xampp control panel as administrator.
+⋅⋅* Run xampp control panel as administrator.
 
-set mysql and apache to be services. (this means click on the red X to turn into a green tick)
+⋅⋅* Set mysql and apache to be services. (this means click on the red X to turn into a green tick)
 
-start apache and mysql
+⋅⋅* Start apache and mysql
 
-in you broweser go to localhost http://localhost/dashboard/. here you should see the xampp dashboard
+⋅⋅* In you broweser go to localhost http://localhost/dashboard/. here you should see the xampp dashboard
 
-Navigate to C:\xampp\htdocs
+⋅⋅* Navigate to C:\xampp\htdocs
 
-create a folder called test
+⋅⋅* Create a folder called test
 
-create a file called index.php
+⋅⋅* Create a file called index.php
 
-in that file add the following php code: <?php echo 'IT WORKS'; ?>
+⋅⋅* In that file add the following php code: <?php echo 'IT WORKS'; ?>
 
-in your browser go to http://localhost/test 
+⋅⋅* In your browser go to http://localhost/test 
 
-Here you should see the text 'IT WORKS'
+⋅⋅* Here you should see the text 'IT WORKS'
 
 
 
