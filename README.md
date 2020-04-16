@@ -1,4 +1,4 @@
-# watsonMVC
+# watsonmvc
 This is a PHP MVC framework
 
 
