@@ -103,3 +103,16 @@ If using VSCode I recommend downloading the extension PHP Intellisense. by Felix
   define('SITENAME', 'WatsonMVC');                      <-- Your Site Name HERE
 
 ```
+
+1. Navigate to public/.htaccess and edit the rewrite base to your applications name. DO NOT CHANGE THE LAYOUT. this folder is very specifically formatted so be careful
+
+```
+RewriteBase /watsonmvc/public
+
+Change to:
+
+RewriteBase /<your app name>/public
+
+```
+
+
