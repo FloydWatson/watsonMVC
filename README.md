@@ -87,32 +87,32 @@ If using VSCode I recommend downloading the extension PHP Intellisense. by Felix
 
 1. Open in your prefered IDE and navigate to app/config/config.php. Edit the default values to your values. See below.
 
-```
-<?php
-  // DB Params
-  define('DB_HOST', 'localhost');                       <-- Default host used
-  define('DB_USER', 'root');
-  define('DB_PASS', '123456');                          <-- Database password you created earlier
-  define('DB_NAME', 'wmvc');                            <-- Database name you created earlier
+        ```
+        <?php
+        // DB Params
+        define('DB_HOST', 'localhost');                       <-- Default host used
+        define('DB_USER', 'root');
+        define('DB_PASS', '123456');                          <-- Database password you created earlier
+        define('DB_NAME', 'wmvc');                            <-- Database name you created earlier
 
-  // App Root
-  define('APPROOT', dirname(dirname(__FILE__)));
-  // URL Root
-  define('URLROOT', 'http://localhost/watsonmvc');      <-- Your default URL. This is generally localhost/<file name>
-  // Site Name
-  define('SITENAME', 'WatsonMVC');                      <-- Your Site Name HERE
+        // App Root
+        define('APPROOT', dirname(dirname(__FILE__)));
+        // URL Root
+        define('URLROOT', 'http://localhost/watsonmvc');      <-- Your default URL. This is generally localhost/<file name>
+        // Site Name
+        define('SITENAME', 'WatsonMVC');                      <-- Your Site Name HERE
 
-```
+        ```
 
 1. Navigate to public/.htaccess and edit the rewrite base to your applications name. DO NOT CHANGE THE LAYOUT. this folder is very specifically formatted so be careful
 
-```
-RewriteBase /watsonmvc/public
+        ```
+        RewriteBase /watsonmvc/public
 
-Change to:
+        Change to:
 
-RewriteBase /<your app name>/public
+        RewriteBase /<your app name>/public
 
-```
+        ```
 
 
