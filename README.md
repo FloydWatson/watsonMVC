@@ -90,16 +90,16 @@ If using VSCode I recommend downloading the extension PHP Intellisense. by Felix
 ```
 <?php
   // DB Params
-  define('DB_HOST', 'localhost');
+  define('DB_HOST', 'localhost');                       <-- Default host used
   define('DB_USER', 'root');
-  define('DB_PASS', '123456');
-  define('DB_NAME', 'wmvc'); 
+  define('DB_PASS', '123456');                          <-- Database password you created earlier
+  define('DB_NAME', 'wmvc');                            <-- Database name you created earlier
 
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
   // URL Root
-  define('URLROOT', 'http://localhost/watsonmvc');
+  define('URLROOT', 'http://localhost/watsonmvc');      <-- Your default URL. This is generally localhost/<file name>
   // Site Name
-  define('SITENAME', 'WatsonMVC');
+  define('SITENAME', 'WatsonMVC');                      <-- Your Site Name HERE
 
 ```
