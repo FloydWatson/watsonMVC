@@ -87,7 +87,7 @@ If using VSCode I recommend downloading the extension PHP Intellisense. by Felix
 
 1. Open in your prefered IDE and navigate to app/config/config.php. Edit the default values to your values. See below.
 
-        ```
+    
         <?php
         // DB Params
         define('DB_HOST', 'localhost');                       <-- Default host used
@@ -102,17 +102,17 @@ If using VSCode I recommend downloading the extension PHP Intellisense. by Felix
         // Site Name
         define('SITENAME', 'WatsonMVC');                      <-- Your Site Name HERE
 
-        ```
+    
 
 1. Navigate to public/.htaccess and edit the rewrite base to your applications name. DO NOT CHANGE THE LAYOUT. this folder is very specifically formatted so be careful
 
-        ```
+    
         RewriteBase /watsonmvc/public
 
         Change to:
 
         RewriteBase /<your app name>/public
 
-        ```
+    
 
 
