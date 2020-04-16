@@ -57,6 +57,8 @@ This is a PHP MVC framework
 
 1. Refresh phpmyadmin to check this has worked correctly.
 
+1. Create a new database that you wish to use for your appliation. Remember the name used for later
+
 
 
 ## Environment Variables
@@ -73,3 +75,31 @@ This is a PHP MVC framework
 ## IDE
 
 If using VSCode I recommend downloading the extension PHP Intellisense. by Felix Becker. 
+
+
+# Framework Set Up
+
+1. Download or Clone this repository into your htdocs file.
+
+1. In your PHP
+
+1. Rename file to your desired app name. Test by going to localhost/"app name". This should put you on the WatsonMVC landing page.
+
+1. Open in your prefered IDE and navigate to app/config/config.php. Edit the default values to your values. See below.
+
+```
+<?php
+  // DB Params
+  define('DB_HOST', 'localhost');
+  define('DB_USER', 'root');
+  define('DB_PASS', '123456');
+  define('DB_NAME', 'wmvc'); 
+
+  // App Root
+  define('APPROOT', dirname(dirname(__FILE__)));
+  // URL Root
+  define('URLROOT', 'http://localhost/watsonmvc');
+  // Site Name
+  define('SITENAME', 'WatsonMVC');
+
+```
