@@ -114,5 +114,8 @@ If using VSCode I recommend downloading the extension PHP Intellisense. by Felix
         RewriteBase /<your app name>/public
 
     
+# Models
+
+The Models folder is currently empty in this framework so github ignored it. Please add your owwn Models folder within app and utilize that for model storage.
 
 
