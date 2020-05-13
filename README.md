@@ -25,7 +25,9 @@ This is a PHP MVC framework
 
 1. Create a file called index.php.
 
-1. In that file add the following php code: <?php echo 'IT WORKS'; ?>
+1. In that file add the following php code: 
+
+            <?php echo 'IT WORKS'; ?>
 
 1. In your browser go to http://localhost/test.
 
